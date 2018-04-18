@@ -1,0 +1,182 @@
+/*  ALL */
+* {
+  font-family: 'Lato', sans-serif;
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+
+.wrapper {
+  max-width: 1200px;
+  margin: auto;
+}
+
+/*  Header */
+
+header {
+  background-color: #0086E9;
+  width: 100%;
+  height: 170px;
+  padding: 10px 0 20px 10px;
+  color: white;
+}
+
+header h1 {
+  font-size: 5em;
+  margin-left: 100px;
+  height: 100px;
+  font-family: 'Poppins', sans-serif;
+}
+header a {
+  color: white;
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+.data {
+  font-size: 1.4em;
+  font-weight: bold;
+  width: 20%;
+}
+
+/* .logo {
+  float: right;
+  height: 100px;
+  width: 100px;
+  background-image: url("../images/sun.png");
+  background-color: #0086E9;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 10px;
+} */
+
+/* Up */
+
+.up {
+  margin: 20px 0;
+  width: 100%;
+  height: 600px;
+  background-image: url("../images/hanka.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.up .header {
+  color: white;
+  background-color: #0086E9;
+  width: 15%;
+  padding: 5px 0 5px 10px;
+  font-weight: bold;
+  font-size: 1.2em;
+
+}
+
+.up .topic {
+  color: white;
+  width: 40%;
+  margin-left: 25px;
+  margin-top: 250px;
+  text-shadow: 2px 2px #2a322f;
+  font-size: 2.5em;
+
+}
+
+/* .up .source {
+  color: white;
+  float: right;
+  font-size: 0.7em;
+  margin-top: 155px;
+} */
+
+/* Left side */
+
+.left {
+  float: left;
+  width: 60%;
+  height: 500px;
+  border-top: 5px solid #d9397b;
+  cursor: pointer;
+}
+
+.left .header {
+  height: 6%;
+  width: 100%;
+  color: #d9397b;
+  font-size: 1.05em;
+  font-weight: bold;
+}
+
+.left .topic {
+  width: 100%;
+  height: 94%;
+  background-color: red;
+  background-image: url("../images/dog.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.left .topic p {
+  float:right;
+  background-color: #d9397b;
+  width: 32%;
+  padding-right: 15px;
+  color: white;
+  font-size: 1.3em;
+  text-align: right;
+   margin-top: 5px;
+}
+
+/* center linie */
+.line {
+  float: left;
+  width: 3%;
+  height: 500px;
+  padding-left: auto;
+}
+
+.line .vertical {
+  height: 100%;
+  width: 1px;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+/* Right side*/
+
+.right {
+  float: right;
+  width: 37%;
+  height: 500px;
+  border-top: 5px solid #d9397b;
+  cursor: pointer;
+}
+
+.right .header {
+  height: 6%;
+  width: 100%;
+  color: #d9397b;
+  font-size: 1.05em;
+  font-weight: bold;
+}
+.right .topic {
+  width: 100%;
+  height: 94%;
+}
+.right .topic p {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.4em;
+  width: 100%;
+  height: 26%;
+}
+
+.right .image {
+  height: 74%;
+  width: 100%;
+  background-image: url("../images/lovembal.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+}
